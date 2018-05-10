@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style type="text/css">
+      h3 {
+        padding: 0 2rem;
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+      a:hover {
+        color: blue;
+      }
+      .flexRow {
+        width: 100%;
+        padding: 0.7rem 2rem;
+        display: flex;
+        align-items: center;
+      }
+      .templateName {
+        width: 200px;
+        margin-right: 5px;
+      }
+      .templateBody {
+        width: 100%;
+      }
+      .alt0 {
+        background-color: #E3E3E3;
+      }
+      .alt1 {
+        background-color: #F5F5F5;
+      }
+    </style>
+  </head>
+
+<body>
+  <h3 data-i18n="titleTemplateList"></h3>
+  <div class="container"></div>
+  <template id="templateItem">
+    <div class="rowContainer">
+      <form class="flexRow">
+        <input type="hidden" class="rowNum" name="rowNum">
+        <a href="#" class="templateName">Template Name</a>
+        <button data-i18n="optionButtonDelete" id="delete" type="submit"></button>
+      </form>
+    </div>
+  </template>
+  <template id="templateNew">
+    <div class="rowContainer">
+      <form class="flexRow">
+        <input type="hidden" class="rowNum" name="rowNum">
+        <button data-i18n="optionButtonNew" id="showForm" type="submit"></button>
+      </form>
+    </div>
+  </template>
+  <template id="templateForm">
+    <form class="rowForm">
+      <div class="flexRow">
+        <input type="hidden" class="rowNum" name="rowNum">
+        <input type="hidden" class="templateId" name="templateId">
+        <input type="text" class="templateName" name="templateName" data-i18n="optionTemplateNameTitle|placeholder">
+        <button data-i18n="optionButtonSave" id="add" type="submit"></button>
+      </div>
+      <div class="flexRow">
+        <textarea class="templateBody" name="templateBody" data-i18n="optionTemplateBodyTitle|placeholder"></textarea>
+      </div>
+    </form>
+  </template>
+  <script src="popup.js"></script>
+</body>
+
+</html>

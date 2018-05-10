@@ -1,0 +1,66 @@
+{
+  "extensionName": {
+    "message": "Insert Template to Editables",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Quickly insert predefined templates into input boxes and text areas.",
+    "description": "Description of the extension."
+  },
+
+  "notificationTitle": {
+    "message": "Insert Template to Editables Add-on",
+    "description": "Title of general notification."
+  },
+
+  "errorElemUnaccessible": {
+    "message": "ERROR! Cannot access text box, it might be inside a protected iframe.",
+    "description": "Error message when editable is unaccessible."
+  },
+
+  "contextItemTitle": {
+    "message": "Insert template",
+    "description": "Title of context item."
+  },
+
+  "contextItemTitleNull": {
+    "message": "No templates",
+    "description": "Title of the context item when no template is available."
+  },
+
+  "titleTemplateList": {
+    "message": "Template list",
+    "description": "Title for option header."
+  },
+
+  "optionTemplateNameTitle": {
+    "message": "Template name",
+    "description": "Title for template name option."
+  },
+
+  "optionTemplateBodyTitle": {
+    "message": "Template body",
+    "description": "Title for template body option."
+  },
+
+  "optionUseLightIconTitle": {
+    "message": "Use light icon for action button",
+    "description": "Title for light icon option."
+  },
+
+  "optionButtonNew" : {
+    "message": "Add new ...",
+    "description": "General option: new"
+  },
+
+  "optionButtonSave": {
+    "message": "Save",
+    "description": "Save button on option page."
+  },
+
+  "optionButtonDelete": {
+    "message": "Delete",
+    "description": "Delete template button on option page."
+  }
+}
