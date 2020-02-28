@@ -1,0 +1,66 @@
+{
+  "extensionName": {
+    "message": "Inserir Modelo nos Editáveis",
+    "description": "Nome da extensão."
+  },
+
+  "extensionDescription": {
+    "message": "Insira rapidamente modelos predefinidos em caixas de entrada e áreas de texto.",
+    "description": "Descrição da extensão."
+  },
+
+  "notificationTitle": {
+    "message": "Inserir modelo na Extenção",
+    "description": "Título da notificação geral."
+  },
+
+  "errorElemUnaccessible": {
+    "message": "ERRO! Não é possível acessar a caixa de texto, pode estar dentro de um iframe protegido.",
+    "description": "Mensagem de erro quando editável é inacessível."
+  },
+
+  "contextItemTitle": {
+    "message": "Inserir modelo",
+    "description": "Título do item de contexto."
+  },
+
+  "contextItemTitleNull": {
+    "message": "No templates",
+    "description": "Título do item de contexto quando nenhum modelo está disponível."
+  },
+
+  "titleTemplateList": {
+    "message": "Lista de modelos",
+    "description": "Título do cabeçalho da opção."
+  },
+
+  "optionTemplateNameTitle": {
+    "message": "Nome do modelo",
+    "description": "Título para a opção de nome do modelo."
+  },
+
+  "optionTemplateBodyTitle": {
+    "message": "Corpo do modelo",
+    "description": "Título para a opção de corpo do modelo."
+  },
+
+  "optionUseLightIconTitle": {
+    "message": "Use o ícone de luz para o botão de ação",
+    "description": "Título para a opção de ícone de luz."
+  },
+
+  "optionButtonNew" : {
+    "message": "Adicionar novo...",
+    "description": "Opção geral: novo"
+  },
+
+  "optionButtonSave": {
+    "message": "Salvar",
+    "description": "Salvar botão na página de opções."
+  },
+
+  "optionButtonDelete": {
+    "message": "Excluir",
+    "description": "Excluir botão de modelo na página de opções."
+  }
+}
